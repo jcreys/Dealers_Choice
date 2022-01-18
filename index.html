@@ -1,12 +1,72 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>
             Raptors vs. Heat
         </title>
-        <meta>
+        <!-- <link rel="stylesheet" href="style.css"> -->
+<style>
+#wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    
 
+}
+#raptors {
+  background-color: #ce1141;
+  flex-basis: 40%;
+  border: solid 1px black;
+}
+
+#heat {
+  background-color: #890023;
+  flex-basis: 40%;
+  border: solid 1px black;
+}
+
+#score {
+
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  height: 100px;
+  font-family: sans-serif;
+}
+.score {
+    display: flex;
+    flex-basis: 10%;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    border: solid 1px black;
+    height: 100px;
+    font-family: sans-serif
+}
+
+.logo{
+    display: inline-block;
+    margin: 25px 10px;
+}
+
+
+
+</style>
     </head>
     <body>
-        <h1>Raptors vs. Heat</h1>
+        <div id="wrapper">
+            <div class="team" id="raptors"><h2>Toronto</h2>
+                
+                <img class="logo" src="https://s.yimg.com/cv/apiv2/default/mlb/20190318/70x70/raptors.png">
+            </div>
+            <div class="score"><h1>99 - 104</h1></div>
+            <div class="team" id="heat"><h2>Miami</h2><img class="logo" src = "https://s.yimg.com/cv/apiv2/default/nba/20181218/70x70/heat_s.png"></div>
+ 
+        </div>
     </body>
 </html>

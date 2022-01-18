@@ -1,0 +1,26 @@
+#raptors {
+  background-color: #f21b3f;
+}
+
+#heat {
+  background-color: #890023;
+}
+
+#score {
+  background-color: white;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+}
